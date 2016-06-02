@@ -4,7 +4,8 @@
   "license": "MIT",
   "require": {
     "php": ">=5.3.0",
-    "illuminate/support": "~4.0|~5.0|~5.1"
+    "illuminate/support": "~4.0|~5.0|~5.1",
+    "league/commonmark": "^0.13"
   },
   "authors": [
     {

@@ -9,7 +9,6 @@ class GitChangelog
 {
 
     public $changelog;
-    protected $app;
     protected $appendToVersion;
     protected $branch;
     protected $prependToVersion;

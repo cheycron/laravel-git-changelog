@@ -1,5 +1,6 @@
 {
   "name": "cheycron/git-changelog",
+  "description": "Parse changelog directly from Git",
   "type": "php",
   "license": "MIT",
   "require": {

@@ -15,8 +15,8 @@
     }
   ],
   "autoload": {
-    "psr-0": {
-      "Cheycron\\Gitchangelog": "src/"
+    "psr-4": {
+      "Cheycron\\Gitchangelog\\": "src/"
     }
   }
 }

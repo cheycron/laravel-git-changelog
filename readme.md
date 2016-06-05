@@ -4,13 +4,19 @@ Get current versión and changelog directly from GIT.
 
 Add the following to the `require` section of your projects composer.json file:
 
-```php
+```
 "cheycron/git-changelog": "1.0.1",
 ```
 
-Run composer update to download the package
+Add this to the config/app.php in the providers array
 
-```php
+```
+Cheycron\Gitchangelog\GitChangelogServiceProvider::class,
+```
+
+Run `composer update` to download the package
+
+```
 php composer.phar update
 ```
 
